@@ -1,0 +1,44 @@
+*{
+margin: 0; 
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+background-color: orange;
+}
+.navbar header{
+text-align: left;
+display: block;
+}
+.container{
+width: 100%;
+max-width: 1400px;
+margin: 0 auto;
+}
+section.videos{
+    padding:70px 0 50px 0;	
+    }
+    section.videos .box-video{
+    float: left;
+    width: 33.3%;
+    padding-top: calc(33.3%  * 0.6);
+    position: relative;
+    border:5px solid white;
+    }
+    section.videos iframe{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+footer .container{
+text-align: center;
+padding: 10px 0;
+background-color: blue;
+}
+footer .imagem_wrapper{
+width: 25px;
+padding: 25px;
+}
